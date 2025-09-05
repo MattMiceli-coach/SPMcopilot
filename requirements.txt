@@ -1,0 +1,6 @@
+# Add your project dependencies below
+python-dotenv
+openai
+langchain
+streamlit
+pydantic
