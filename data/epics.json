@@ -1,0 +1,22 @@
+[
+  {
+    "id": "EPC-001",
+    "title": "Customer Onboarding Dashboard",
+    "summary": "Unified onboarding KPIs and funnel conversion.",
+    "estimate_points": 320,
+    "funding_block": "BLK-CRM",
+    "portfolio_id": "PORT-1",
+    "quarter": "2025Q1",
+    "keywords": ["onboarding", "funnel", "customer", "dashboard"]
+  },
+  {
+    "id": "EPC-002",
+    "title": "Reduce Call Center AHT with AI",
+    "summary": "Deflect low-value calls and lower average handle time.",
+    "estimate_points": 210,
+    "funding_block": "BLK-SVC",
+    "portfolio_id": "PORT-1",
+    "quarter": "2025Q1",
+    "keywords": ["call center", "AHT", "AI", "deflection"]
+  }
+]

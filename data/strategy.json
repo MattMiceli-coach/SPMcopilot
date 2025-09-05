@@ -1,0 +1,12 @@
+{
+  "themes": [
+    {"id": "ST-01", "name": "Digital Growth", "okrs": ["Increase digital adoption", "Improve onboarding NPS"]},
+    {"id": "ST-02", "name": "Operational Efficiency", "okrs": ["Reduce service cost", "Lower AHT by 15%"]},
+    {"id": "ST-03", "name": "Risk & Compliance", "okrs": ["Improve KYC coverage", "Reduce incidents"]}
+  ],
+  "keyword_map": {
+    "Digital Growth": ["onboarding", "conversion", "mobile", "self-serve", "dashboard"],
+    "Operational Efficiency": ["AHT", "deflection", "automation", "cost", "service"],
+    "Risk & Compliance": ["KYC", "risk", "compliance", "incident", "security"]
+  }
+}
