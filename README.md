@@ -39,3 +39,73 @@ This is the **MVP** for a larger platform of SPM AI agents, including quarterly 
 ```bash
 git clone https://github.com/MattMiceli-coach/SPMcopilot.git
 cd SPMcopilot
+
+## 2. Install dependencies
+```bash
+pip install -r requirements.txt
+
+3. Add your API key
+```bash
+Create a .env file with:
+OPENAI_API_KEY=your_api_key_here
+
+4. Run the prototype
+
+Run the Python CLI version:
+```bash
+python main.py
+
+Or launch the Streamlit UI:
+```bash
+streamlit run app.py
+
+### Part 3 — Workflow & Data
+```markdown
+## 📊 MVP Workflow
+1. Select an **epic** (mock JSON data).  
+2. Agent evaluates:  
+   - Alignment to strategy & OKRs  
+   - Capacity headroom impact  
+   - Funding variance impact  
+3. Generates an **executive-ready one-pager** with recommendation.  
+4. Export as PDF or view in Streamlit UI.  
+
+---
+
+## 🗂️ Data Structure (Mock JSONs)
+- **`epics.json`** – sample initiatives (id, title, theme, estimate, funding block, quarter)  
+- **`strategy.json`** – strategic themes & OKRs  
+- **`capacity.json`** – capacity snapshot by portfolio & quarter  
+- **`funding.json`** – funding allocation snapshot
+
+⸻
+
+Part 4 — Roadmap, License, Status
+
+## 📅 Roadmap
+### Phase 1 (MVP – Intake Copilot) ✅  
+- Mock data + JSON functions  
+- Core agent workflow (align → capacity → funding → recommendation)  
+- One-pager output  
+
+### Phase 2 – Quarterly Planning Assistant  
+- Trade-off slide generation  
+- Portfolio-level capacity vs OKRs view  
+
+### Phase 3 – Funding Reconciliation Agent  
+- Variance detection  
+- Draft change requests  
+
+### Phase 4 – Executive Dashboard Generator  
+- Natural language queries → board-ready slides  
+
+---
+
+## ⚖️ License
+MIT License (to be confirmed)
+
+---
+
+## ✨ Status
+This is a **prototype** intended for demo purposes.  
+Not production-ready.  
